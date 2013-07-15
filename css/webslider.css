@@ -1,5 +1,6 @@
-/* WebSlider
- * Adam K Dean / Imdsm 
+/* WebSlider (https://github.com/Imdsm/WebSlider)
+ * Adam K Dean (Imdsm)
+ * 15/07/2013
  */
 
 /* apply a natural box layout model to all elements */
@@ -7,10 +8,25 @@
 
 .container { }
 
-.slide { padding: 20px 10px; }
-.slide.white { background: #ffffff; color: #000000; }
-.slide.black { background: #000000; color: #ffffff; }
-.slide.green { background: #009f6b; color: #ffffff; }
-.slide.red { background: #c40233; color: #ffffff; }
-.slide.yellow { background: #ffd300; color: #000000; }
+.slide { padding: 35px; }
+
+.slide h1 { margin: 0; }
+
 .slide.blue { background: #0087bd; color: #ffffff; }
+.slide.blue .button { background: #ffffff; color: #333333; }
+.slide.blue .button:hover { background: #dddddd; color: #000000; }
+
+.slide.white { background: #ffffff; color: #000000; }
+.slide.white .button { background: #dddddd; color: #333333; }
+.slide.white .button:hover { background: #cccccc; color: #111111; }
+
+.slide.yellow { background: #ffd300; color: #000000; }
+.slide.yellow .button { background: #ffffff; color: #333333; }
+.slide.yellow .button:hover { background: #fff5c4; color: #000000; }
+
+.button { 	
+	padding: 10px; text-decoration: none; 
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px; 
+	        border-radius: 5px; 
+}

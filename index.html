@@ -10,9 +10,18 @@
 <body>
 	
 	<div class="container">
-		<div class="slide blue">Slide 1</div>
-		<div class="slide white">Slide 2</div>
-		<div class="slide yellow">Slide 3</div>
+		<div id="slide1" class="slide blue">
+			<h1>Slide 1</h1>
+			<p><a href="#" class="button" data-target="slide2">Next Slide</a></p>
+		</div>
+		<div id="slide2" class="slide white">
+			<h1>Slide 2</h1>
+			<p><a href="#" class="button" data-target="slide3">Next Slide</a></p>
+		</div>
+		<div id="slide3" class="slide yellow">
+			<h1>Slide 3</h1>
+			<p><a href="#" class="button" data-target="slide1">Start Again</a></p>
+		</div>
 	</div>
 
 	<script src="js/jquery-2.0.3.min.js"></script>
