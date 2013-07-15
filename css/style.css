@@ -1,0 +1,16 @@
+/* WebSlider
+ * Adam K Dean / Imdsm 
+ */
+
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.container { }
+
+.slide { padding: 20px 10px; }
+.slide.white { background: #ffffff; color: #000000; }
+.slide.black { background: #000000; color: #ffffff; }
+.slide.green { background: #009f6b; color: #ffffff; }
+.slide.red { background: #c40233; color: #ffffff; }
+.slide.yellow { background: #ffd300; color: #000000; }
+.slide.blue { background: #0087bd; color: #ffffff; }
