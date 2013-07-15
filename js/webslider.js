@@ -5,16 +5,16 @@
 
 $(function() {
 
-	// resize slides to full window height
 	$('.slide').css('height', window.innerHeight);
+
 	$(window).resize(function() {
 		$('.slide').css('height', window.innerHeight);
 	});
 
-	$('.button').click(function() {
-		var target = $(this).data('target');
+	$('.button').smoothScroll();
 
-		//
-
+	$('.button').click(function(event) {
+		event.preventDefault();		
+		$.smoothScroll({ scrollTarget: this.hash });		
 	});
 });
