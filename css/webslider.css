@@ -12,8 +12,8 @@
 
 .slide h1 { text-align: center; font-size: 400%; }
 .slide h2 { text-align: center; font-size: 250%; }
+.slide p { text-align: center; }
 .slide p.button { position: absolute; width: 200px; left: 50%; margin-left: -100px; bottom: 70px; }
-
 .slide p.button a {
 	margin: 10px 0; padding: 15px 20px; text-decoration: none; font-size: 200%;
 	-webkit-border-radius: 5px; moz-border-radius: 5px; border-radius: 5px; 
@@ -30,3 +30,12 @@
 .slide.yellow { background: #ffd300; color: #000000; }
 .slide.yellow p.button a { background: #ffffff; color: #333333; }
 .slide.yellow p.button a:hover { background: #fff5c4; color: #000000; }
+
+/* just the style for the github button */
+.slide p.github { position: absolute; width: 400px; left: 50%; margin-left: -200px; bottom: 160px; }
+.slide p.github a {
+	margin: 10px 0; padding: 15px 20px; text-decoration: none; font-size: 160%;
+	-webkit-border-radius: 5px; moz-border-radius: 5px; border-radius: 5px; 
+}
+.slide.blue p.github a { background: #ffffff; color: #333333; }
+.slide.blue p.github a:hover { background: #dddddd; color: #000000; }
