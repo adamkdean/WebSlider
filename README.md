@@ -8,3 +8,10 @@ I'm not quite sure how to describe this, "Lightweight single page slider" doesn'
 I hope that makes sense.
 
 See an example here: [WebSlider demo](http://imdsm.github.io/WebSlider/).
+
+P.S, if you're implementing this, make sure you change the selector in `webslider.js` line 10: 
+    
+    $('p.button a').click(function(event) { ... }
+       __________ <- this part
+
+If you have any problems, [get in touch](http://www.adamkdean.co.uk/contact).
